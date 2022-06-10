@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".experiencia">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="1dp"
+        android:text="Experiência"
+        android:textSize="80px"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Banco Inter \n Backoffice - Suporte técnico \n ago de 2021 - maio 2022 \n Análise de bugs e interpretação de erros, analise de informações em banco de dados SQL/NRQL com criação de query e correlacionamento de tabelas para resolução e identificação de bugs, contato de segundo nível com cliente para ajudar nas tratativas e resoluções de modo mais assertivo, criacao de protocolos, fluxos e cards pelo SalesForce e Jira. \n\n Assistente CX - Social Media \n set de 2019 - ago de 2021 \n Atei no direct do Twitter e inbox do Facebook auxiliando prospects e clientes em relação à produtos diversos do banco, utilização do app, dúvidas gerais e também algumas campanhas de marketing como elaboração e envio de cartinhas e brindes.  \n\n Victória Moda Festa \n Social Media/Freelance \n ago de 2019 - nov de 2019 \n Freelancer de social media, produção de conteúdo e gerencimento de redes sociais. \n\n eNotas \n Estagiária de Marketing e produção de conteúdo \n nov de 2018 - jun de 2019 \n Estagiária de marketing, responsável pela criação de conteúdos e artigos para blog, gestão de redes sociais, SEO e estratégias de marketing e endomarketing.\n\n  Central de Vendas ltda Estagiária de Marketing \n set de 2018 - out de 2018 \n Fui responsavel pela criação de campanhas de marketing, elaboração de design de tapetes novos, manutenção do site e blog da empresa, criação de pós venda, atendimento e captação de leads. \n\n Estácio \n Estagiária de Marketing \n fev de 2018 - set de 2018 \n Atendimento presencial a clientes, resolução de dúvidas acadêmicas, captação e conversão de leads e prospects. \n\n  Atento \n Agente de atendimento \n fev de 2015 - out de 2017 \n Atendimento receptivo via telefone para Fundação Fiat e FCA Group e atendimento receptivo via chat para empresa Uber. " />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

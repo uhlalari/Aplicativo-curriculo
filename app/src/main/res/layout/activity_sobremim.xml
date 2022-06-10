@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sobremim">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="88dp"
+        android:text="Sobre mim"
+        android:textSize="80px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="323dp"
+        android:layout_height="462dp"
+        android:text="Ei, sou a Lari! \n Sou graduada em Marketing e pós graduada em Mídias Digitais. \n\n Sou autora do livro Marketing Purinho e agora estudante de Analise e desenvolvimento de sistemas! \n\n Os pontos mais importantes pra mim são a transparência e o respeito, com todos e por todos. \n Acredito que a diversidade e pluralidade são o que tornam as coisas justas e permitem o crescimento tanto pessoal quanto empresarial. \n\n Sou aquela pessoa que busca sempre evoluir com base no que fui ontem, sou competitiva, mas acima disso, acredito que times vão mais longe do que pessoas sozinhas. \n\n Sou uma mistura de analítica e sensível, minhas decisoes profissionais nao excluem meus sonhos."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.15" />
+</androidx.constraintlayout.widget.ConstraintLayout>
